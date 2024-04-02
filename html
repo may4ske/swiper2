@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Slider</title>
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+</body>
+  <div class="swiper mySwiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img src="https://imageresizer.static9.net.au/9Xc4KOep26mKmySD7vy5SnVosJU=/1200x0/https%3A%2F%2Fprod.static9.net.au%2Ffs%2Fc583b2ae-240a-4391-bf7a-4f85f1adf73b"></div>
+
+<div class="swiper-slide"><img src="https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+
+<div class="swiper-slide"><img src="https://www.rivistaundici.com/wp-content/uploads/2016/07/GettyImages-480579578-1.jpg?x59145"></div>
+
+<div class="swiper-slide"><img src=""></div>
+
+<div class="swiper-slide"><img src="https://img.freepik.com/premium-vector/minimalist-
+shape-background_112769-210.jpg"></div>
+</div>
+
+<div class="swiper-pagination"></div>
+</div>
+<div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+<script>
+var swiper = new Swiper(".mySwiper", {
+spaceBetween: 30,
+navigation: {
+nextEl: ".swiper-button-next",
+prevEl: ".swiper-button-prev",
+},
+pagination: {
+el: ".swiper-pagination",
+},
+mousewheel: true,
+keyboard: true,
+});
+</script>
+</body>
+</html>
+
+
